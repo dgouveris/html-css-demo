@@ -1,0 +1,192 @@
+/* Global Rules */
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+/* Header rules */
+
+.header-icon { 
+  color:#01b3a7;
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+#menu {
+  background-color:#162e44;
+}
+
+#menu ul {
+  padding: 0;
+  align-items: center;
+  height: 50px;
+}
+
+#menu li {
+  list-style: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#menu li a {
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+#menu li a:hover {
+  background-color: #224566;
+  border-top: 4px solid #01b3a7;
+}
+
+#wonder-tour-info {
+  padding: 15px;
+  align-items: center;
+}
+
+.header-link {
+  border: 2px solid #01b3a7;
+  padding: 8px 15px;
+  color: #151515;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.header-link:hover {
+  background-color: #01b3a7;
+  color: white;
+}
+
+#create-your-tour {
+  height: 600px;
+  background-image: url(../images/parallax-1-1920x850.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#create-your-tour h6 {
+  font-size: 14px;
+}
+
+#create-your-tour h2 {
+  font-size: 60px;
+}
+
+#create-your-tour > .container {
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.cta {
+  height: 300px;
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  padding: 25px;  
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.clicked-button {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+.all-caps {
+  text-transform: uppercase;
+}
+
+.cta-balloons {
+  background-image: url(../images/cta-1-368x420.jpg);
+}
+
+.cta-mountains {
+  background-image: url(../images/cta-2-368x420.jpg);
+}
+
+.cta-beach {
+  background-image: url(../images/cta-3-368x420.jpg);
+}
+
+/* Common rules */
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.container {
+  margin: auto;
+  width: 920px;
+}
+
+.color-light {
+  color: white;
+}
+
+.grow-1 {
+  flex: 1;
+}
+
+.my {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.p {
+  padding: 15px;
+}
+
+form label,
+form input {
+  margin-bottom: 5px;
+}
+
+#create-your-tour a {
+  border-color: white;
+}
+
+#create-your-tour a:hover {
+  background-color: white;
+  color: #01b3a7;
+}
+
+.error-message {
+  color: red;
+  font-size: 10px;
+  font-style: italic;
+  display: none;
+}
+
+.error-message.has-error {
+  display: block;
+}
+
+.fixed-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
